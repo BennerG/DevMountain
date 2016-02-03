@@ -1,0 +1,46 @@
+
+swift vs coco touch class
+-- swift files have less boiler plate code
+-- you have to import uikit & foundation
+
+Shared instance in swift
+-- use of keyword "private" ? 
+-- key word "static" creates a shared instance
+-- using the combination of "static let"
+-- init() fires the creation of an object
+-- e.g. var entries: [Entry]() vs. [Entry]? <-- optional (can be nil) || [Entry]! <-- implicitly unwrapped optional (cannot be nil else crash!)
+-- implicit init comes for free (if there are no stored properties)
+-- Private, internal, and public : everything is internal by default 
+
+The use of "_ = someValue"
+-- This is equivalent to "if someValue != nil"
+-- forces someValue to load
+
+// ---------------------------------------------------------------------
+Equatable Protocol
+
+extensions Event: Equatable { } <-- adopts protocol but does nothing
+
+// "==" = name of operator that we are overloading
+func == (lhs: Event, rhs: Event) -> Bool {
+	return ObjectIdentifier(lhs) == ObjectIdentifier(rhs) // lhs = leftHandSide rhs = rightHandSide 
+}
+// ---------------------------------------------------------------------
+
+ObjectIdentifier
+
+WWDC - leaning toward protocol
+
+init? <-- failable initializer
+
+guard let <-- changes scope to test values
+
+objc.io <-- look at this
+nshipster <-- and this
+
+Core Data
+App (memory) <=> Managed Object Context <= [NSFetchRequest] => Persistent Store (Database)
+
+// For next week
+Explain the difference between an NSNotification and an NSLocalNotification
+

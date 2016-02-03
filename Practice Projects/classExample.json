@@ -1,0 +1,47 @@
+[
+	{
+		"name" : "Ben Gurrola",
+		"cohort" : "iOSAH6",
+		"capstoneApp" : "Phuzzle"
+	},
+	{
+		"name" : "Caleb Hicks",
+		"cohort" : "iOSAH6",
+		"capstoneApp" : "Swift Curriculum"
+	},
+	{
+		"name" : "Jacob Estepp",
+		"cohort" : "iOSAH6",
+		"capstoneApp" : "Alarm Installer"
+	},
+	{
+		"name" : "Alex Bateman",
+		"cohort" : "iOSAH6",
+		"capstoneApp" : "Locals"
+	},
+	{
+		"name" : "Willard Barlow",
+		"cohort" : "iOSAH6",
+		"capstoneApp" : "Corperate Profile"
+	},
+    {
+		"name" : "Jacob Cook",
+		"cohort" : "iOSAH6",
+		"capstoneApp" : "iBorrow"
+	},
+	{
+		"name" : "James Moen",
+		"cohort" : "iOSAH6",
+		"capstoneApp" : "LDS Scripture Master"
+	},
+	{
+		"name" : "Erin Krentz",
+		"cohort" : "iOSAH6",
+		"capstoneApp" : "LocationLog"
+	},
+	{
+		"name" : "David Flake",
+		"cohort" : "iOSAH6",
+		"capstoneApp" : "School Track"
+	}
+]
